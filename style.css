@@ -1,0 +1,99 @@
+.container{
+    text-align: center;
+    width: 60%;
+    margin: 10% 15%;
+    font-family:Gill Sans, sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    width: 60%;
+    text-align: center;
+    margin: 3% 20% 3%;
+}
+
+.flex-container-list{
+    display: flex;
+    width: 62%;
+    text-align: center;
+    margin: 1% 16.6%;
+}
+
+.flex-input{
+    flex: 1;
+
+}
+
+.flex-add-btn {
+    width: 20%;
+    flex: 0.25;
+
+}
+
+.flex-checkbox{
+    flex: 1;
+}
+
+.flex-task {
+    flex: 20;
+    text-align: left;
+}
+
+.flex-delete-btn{
+    flex: 1;
+    margin-right: 3px;
+}
+
+#input-task {
+    border: none;
+    border-bottom: solid 2px #a995c0;
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+}
+
+#input-task:focus{
+    outline: none;
+}
+
+#add-task-button{
+    background-color: #c4a9e5;
+    padding: 5%;
+    height: 100%;
+    width: 8em;
+    outline: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#task-list{
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.delete-btn{
+    background-color: #ff5454;
+    border-radius: 50%;
+    border: 0;
+    width: 1.75em;
+    height: 1.75em;
+    box-sizing: border-box;
+    line-height: 1.75em;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.checked-task{
+    text-decoration: line-through;
+}
+
+.delete-btn:hover{
+    background-color: #b72020;
+}
+
+label{
+    font-weight: bold;
+    font-size: 3em;
+}
+
